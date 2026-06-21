@@ -1,6 +1,6 @@
 # Master's Course Work
 
-A collection of coursework and thesis research from my M.Tech CSE - IIT Jammu program, covering algorithms, mathematics, optimization, machine learning, deep learning, and medical-image super-resolution. The repository brings together lecture material, tutorials, assignments, reference texts, Jupyter notebooks, implementations, experiments, and research presentations.
+A collection of coursework and thesis research from my M.Tech CSE - IIT Jammu program, covering algorithms, mathematics, optimization, machine learning, deep learning, medical-image super-resolution, and internship work. The repository brings together lecture material, tutorials, assignments, reference texts, Jupyter notebooks, implementations, experiments, and research presentations.
 
 > This is an academic archive rather than a single software project. Each course is self-contained and may have different tools, dependencies, and licensing terms.
 
@@ -31,6 +31,12 @@ The directory includes:
 - Region-specific analysis of disease pathology and Mann-Whitney U statistical testing.
 - Serialized metrics, generated images, plots, thesis presentations, and referenced research papers.
 
+## Internship work
+
+### [IIT-Bombay-Internship-Work](IIT-Bombay-Internship-Work/)
+
+This directory contains an IIT Bombay winter-internship project focused on implementing Faster R-CNN. It includes the main notebook, notebook checkpoint material, and sample images used in the experiment.
+
 ## Repository layout
 
 ```text
@@ -55,6 +61,8 @@ The directory includes:
 │   ├── Research Papers Referenced/
 │   ├── kaggle_notebooks/
 │   └── statistical_test/
+├── IIT-Bombay-Internship-Work/
+│   └── Implement Faster R-CNN/
 ├── Optimization-Techniques/
 │   ├── Coding Assignments/
 │   └── Online Assignments/
