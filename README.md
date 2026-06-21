@@ -73,8 +73,8 @@ The directory includes:
 Clone the repository and enter the course directory you want to explore:
 
 ```bash
-git clone <repository-url>
-cd Masters-Course-Work
+git clone https://github.com/mayank1101/MTech-CSE-Course-Work.git
+cd MTech-CSE-Course-Work
 ```
 
 Most theory material only requires a PDF or presentation viewer. To work with the programming assignments, install the tools relevant to that course:
@@ -99,11 +99,11 @@ Dependencies are not pinned, and some material was created with older library ve
 ## Notes
 
 - Paths preserve the original course and assignment names, including spaces and historical spelling.
-- Generated artifacts such as notebook checkpoints, Python bytecode, and compiled test outputs are present in some course directories.
+- The root `.gitignore` excludes new notebook checkpoints, Python bytecode, local environments, editor metadata, and common build products. Some historical generated files remain tracked in the archive; ignore rules do not remove files that are already committed.
 - The thesis directory includes experimental outputs and serialized `.pkl` metric files. Only load pickle files from a trusted source.
 - Solutions are provided for learning and reference. If you are currently enrolled in a related course, follow your institution's academic-integrity policy before consulting them.
 - Large PDFs, books, and slides may be subject to their authors' or publishers' rights; their inclusion here does not change those rights.
 
 ## License
 
-Licensing is defined per course or research directory. The thesis and most course repositories include an MIT License, while the Linear Algebra directory uses GPL-3.0. The Advanced Data Structures and Algorithms directory does not currently include a license file. Third-party lecture notes, books, papers, slides, datasets, medical images, and other reference material remain subject to their original terms.
+The Optimization Techniques, Pattern Recognition and Machine Learning, and Probability and Statistics directories each include an MIT License. The repository root and the other course and thesis directories do not currently include a license file. Third-party lecture notes, books, papers, slides, datasets, medical images, and other reference material remain subject to their original terms.

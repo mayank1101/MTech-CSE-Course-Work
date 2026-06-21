@@ -1,13 +1,21 @@
-# Pixel Level SSIM Computation
+# Pathology-Region SSIM Analysis
 
-Here I have tried to perform pixel level computation only on tumor region.
+This experiment investigates image similarity specifically within a segmented tumor region instead of over the full image.
 
-* I obtain tumor region with help of mask.
-* Flatten the binary array.
-* Filter only non-zero pixels.
-* Compute SSIM for this flattened out array.
+## Method
 
-## Reference
-I have used following code reference to come up with keras based pixel level ssim calcualtion.
-* [SSIM-PyTorch](https://github.com/pranjaldatta/SSIM-PyTorch/blob/master/SSIM_notebook.ipynb)
-* [CV Notes](https://cvnote.ddlee.cc/2019/09/12/psnr-ssim-python)
+1. Use the tumor mask to isolate the region of interest.
+2. Flatten the masked arrays.
+3. Select pixels belonging to the nonzero mask region.
+4. Compute SSIM-related values for the corresponding original and super-resolved pixels.
+
+The implementation and visual analysis are in [`pixel-wise-ssim.ipynb`](pixel-wise-ssim.ipynb).
+
+## Interpretation note
+
+Standard SSIM is defined over local image windows and incorporates spatial structure. Flattening masked pixels changes that spatial interpretation, so this notebook should be treated as an exploratory region-restricted metric calculation rather than a drop-in replacement for conventional image-level SSIM.
+
+## References
+
+- [SSIM-PyTorch example](https://github.com/pranjaldatta/SSIM-PyTorch/blob/master/SSIM_notebook.ipynb)
+- [PSNR and SSIM notes](https://cvnote.ddlee.cc/2019/09/12/psnr-ssim-python)

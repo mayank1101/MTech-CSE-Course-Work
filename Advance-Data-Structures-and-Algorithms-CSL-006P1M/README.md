@@ -1,18 +1,36 @@
-# Advance Data Structures and Algorithms [Subject Code - CSL006P1M]
-## M.Tech 1st Semester
+# Advanced Data Structures and Algorithms (CSL006P1M)
 
-[![Course Subject](https://img.shields.io/badge/Completed-yes-green.svg?style=flat&logo=appveyor)](https://github.com/mayank1101/Advance-Data-Structures-and-Algorithms-CSL-006P1M-/actions?query=workflow%3A%22C%2FC%2B%2B+WorkFlow%22)
+M.Tech, Semester 1
 
-### In this subject following topics were covered
-* Background And Review
-* Asymptotic Notations
-* Divide and Conquer
-* Greedy Algorithms Design and Techniques - I
-* Greedy Algorithms Design and Techniques - II
-* Greedy Algorithms Design and Techniques - III
-* Dynamic Programming - I
-* Dynamic Programming - II
-* Approximation Algorithms
-* NP Theory
+This directory archives lecture material, assignment sheets, and C++ solutions for the Advanced Data Structures and Algorithms course.
 
-**Note** All the lab assignments are available here [Lab Assignments](https://github.com/mayank1101/Advance-Data-Structures-and-Algorithms-CSL-006P1M-/tree/master/lab) 
+## Topics
+
+- Asymptotic analysis and algorithmic foundations
+- Divide-and-conquer techniques
+- Greedy algorithm design
+- Dynamic programming
+- Approximation algorithms
+- NP theory
+
+## Contents
+
+- [`Assignments/`](Assignments/) contains the tutorial and lab problem statements.
+- [`PPT/`](PPT/) contains course slides and handouts, organized by topic where applicable.
+- [`lab/`](lab/) contains 32 C++ programs across four assignment groups, including sorting, connected components, polynomial multiplication, greedy methods, coin change, knapsack, and highway-billboard problems.
+
+## Running the programs
+
+The lab files are independent programs rather than one buildable application. Compile the program you want to inspect with a C++11-or-newer compiler, for example:
+
+```bash
+g++ -std=c++11 "lab/Assignment 1/merge.cpp" -o merge
+./merge
+```
+
+Some programs expect input files, console input, or assumptions documented only in the corresponding assignment PDF. Review the source and problem statement before running it. Compiled binaries are intentionally ignored by the repository-level `.gitignore`.
+
+## Notes
+
+- File names and directory names retain their original assignment naming.
+- The course directory does not include a separate license. Refer to the repository root README for licensing and third-party-material notes.

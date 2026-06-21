@@ -1,0 +1,49 @@
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python caches and tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Python environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Jupyter and IPython
+.ipynb_checkpoints/
+profile_default/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# C/C++ build products
+*.o
+*.obj
+*.out
+*.exe
+*.dSYM/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
