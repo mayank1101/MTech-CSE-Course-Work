@@ -1,6 +1,6 @@
 # Master's Course Work
 
-A collection of coursework and thesis research from an M.Tech program, covering algorithms, mathematics, optimization, machine learning, deep learning, and medical-image super-resolution. The repository brings together lecture material, tutorials, assignments, reference texts, Jupyter notebooks, implementations, experiments, and research presentations.
+A collection of coursework and thesis research from my M.Tech CSE - IIT Jammu program, covering algorithms, mathematics, optimization, machine learning, deep learning, and medical-image super-resolution. The repository brings together lecture material, tutorials, assignments, reference texts, Jupyter notebooks, implementations, experiments, and research presentations.
 
 > This is an academic archive rather than a single software project. Each course is self-contained and may have different tools, dependencies, and licensing terms.
 
